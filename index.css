@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body  {
+    font-family: "Poppins", sans-serif;
+    background-color:rgb(173, 251, 207) ;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  h1  {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  hr{
+    height: 2px;
+    width: 50%px;
+    margin-top: 20px;
+    border: none;
+  }
+  
+  .content  {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .chatcolor  {
+    width: 89%;
+    height: 550px;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px 8px rgba(111, 8, 8, 0.2);
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 65px;
+  }
+  
+  input  {
+    border-radius: 60px;
+    height: 30px;
+    width: 370px;
+    background-color:#fdfdd2;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  ::placeholder  {
+    color: #888888;
+    font-size: 15px;
+    padding: 3px;
+  }
+  
+  button {
+    border-radius: 60px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+  
+  
+  
+  .message-forms {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message-forms form {
+    margin-top: 10px;
+  }
+  .message-blue {
+    background-color:#0FC2C0; 
+  }
+  
+  .message-red {
+    background-color: #FF5A5A; 
+  }
+  
+ 
+  
+  .li-container  {
+    position: absolute;
+    padding: 3px;
+    justify-content: flex-end;
+    width: 89%;
+    max-height: 449px;
+    margin-bottom: 120px;
+    margin-left: 65px;
+    display: inline-block;
+    overflow-y: auto;
+  }
+  
+  .li-container > :last-child   {
+    scroll-margin-bottom: 0px;
+  }
+  
+  li p  {
+    border-radius: 30px;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  
+  
+  
+  ul  {
+    flex-direction: column;
+  }
+  
+  ul li {
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    color: white;
+    padding: 5px;  
+    text-align: right;
+    border-radius: 50%;
+  }
+  
